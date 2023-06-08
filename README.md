@@ -32,7 +32,16 @@ eleven_api_key = "ENTER_YOUR_ELEVEN_LABS_API_KEY_HERE"
 </code>
 </pre>
 
-3. Once you execute the .py file remeber to select your trained voice model from ElevenLabs using the arrow keys, then enter your Prompt.
+3. If you check at Ln 34 the GPT model in use is the 3.5-turbo wichi is much cheaper than GPT4, but you can feel free to switch that. 
+And by default the Ln 35 comes the following Prompt/system: 
+<pre>
+<code>
+chatgpt_system = "You are a helpful assistant in a conversation. Answers should not be too long. Be ironic and sarcastic."
+</code>
+</pre>
+So you could give instruction to act as a different kind of person just by changing the text inside the quotes.
+
+4. Once you execute the .py file remeber to select your trained voice model from ElevenLabs using the arrow keys, then enter your Prompt.
 
 (Despite you can download and run this locally, you need internet connection to get communication with API's and alse be aware of the usage).
 
