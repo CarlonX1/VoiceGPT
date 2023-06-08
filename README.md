@@ -18,14 +18,14 @@ These commands will install the required libraries: openai, requests, questionar
 
 Now we have to setup the py file:
 
-1.Create an account on OpenAI and ElevenLabs and get your API Key using this link: https://platform.openai.com/account/api-keys (The usage can generate a fee)
+1.Create an account on OpenAI and ElevenLabs (https://beta.elevenlabs.io/) and get your API Key using this link: https://platform.openai.com/account/api-keys (The usage can generate a fee)
 
 2. Replace the values in Ln15 & 16 by entering your API Keys 
 
 <pre>
 <code>
 openai_api_key = "ENTER_YOUR_OPENAI_API_KEY_HERE"
-eleven_api_key = "ENTER_YOUR_ELEVEN_LABS_API_KEY_HERE"
+eleven_api_key = "ENTER_YOUR_ELEVENLABS_API_KEY_HERE"
 
 #Keep the quotes  and just replace the text with your API keys
 </code>
