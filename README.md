@@ -8,7 +8,6 @@ In order to get this working properly we have to download and install the follow
 2.Python Libraries: Install the following Python libraries by running the following commands in your terminal or command prompt:
 <pre>
 <code>
-Copy code
 pip install openai
 pip install requests
 pip install questionary
