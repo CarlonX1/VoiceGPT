@@ -21,7 +21,7 @@ Now we have to configure the py file:
 
 1.Create an account on OpenAI and ElevenLabs (https://beta.elevenlabs.io/) and get your API Key using this link: https://platform.openai.com/account/api-keys (The usage can generate a fee)
 
-2. Replace the values in Ln15 & 16 by entering your API Keys 
+2. Replace the values in Ln15 & 16 of the .py file by entering your API Keys 
 
 <pre>
 <code>
