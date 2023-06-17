@@ -28,7 +28,7 @@ Now we have to configure the py file:
 openai_api_key = "ENTER_YOUR_OPENAI_API_KEY_HERE"
 eleven_api_key = "ENTER_YOUR_ELEVENLABS_API_KEY_HERE"
 
-#Keep the quotes  and just replace the text with your API keys
+#Keep the quotes and just replace the text with your API keys
 </code>
 </pre>
 
