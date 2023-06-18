@@ -21,7 +21,7 @@ Now we have to configure the py file:
 
 1.Create an account on OpenAI and ElevenLabs (https://beta.elevenlabs.io/) and get your API Key using this link: https://platform.openai.com/account/api-keys (The usage can generate a fee)
 
-2. Replace the values in Ln15 & 16 of the .py file by entering your API Keys 
+2. Replace the values in Ln20 & 21 of the .py file by entering your API Keys 
 
 <pre>
 <code>
@@ -32,8 +32,8 @@ eleven_api_key = "ENTER_YOUR_ELEVENLABS_API_KEY_HERE"
 </code>
 </pre>
 
-3. If you check at Ln 34 the GPT model in use is the 3.5-turbo wichi is much cheaper than GPT4, but you can feel free to switch that. 
-And by default the Ln 35 comes the following Prompt/system: 
+3. If you check at Ln 3 the GPT model in use is the 3.5-turbo which is much cheaper than GPT4, but you can feel free to switch that. 
+And by default the Ln 39 comes the following Prompt/instruction: 
 <pre>
 <code>
 chatgpt_system = "You are a helpful assistant in a conversation. Answers should not be too long. Be ironic and sarcastic."
